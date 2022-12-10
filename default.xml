@@ -29,35 +29,23 @@
   <include name="system.xml"/>
   <include name="vendor.xml"/>
 
-  <!-- AOSPA -->
-  <remote  name="aospa"
-           fetch=".."
-           review="gerrit.aospa.co"
-           revision="topaz"/>
-
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org"
-           revision="topaz" />
-
-  <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario"
-           revision="topaz" />
-
-  <remote  name="blobs-gitlab"
-           fetch="https://gitlab.com/ThankYouMario"
-           revision="topaz" />
-
   <remote  name="github"
            fetch="https://github.com" />
-
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- NekoFest remotes -->
+  <remote name="neko"
+          fetch="https://github.com/NekoFest"
+          revision="tm" />
+
+  <remote name="neko-gitlab"
+          fetch="https://gitlab.com/NekoFest"
+          revision="tm" />
+
   <include name="aosp.xml"/>
-  <include name="aospa.xml"/>
+  <include name="neko.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
